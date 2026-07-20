@@ -29,7 +29,4 @@ jobs:
           # Replace 'your-dockerhub-username' with your real username
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-site:latest
 
-      # 4. Trigger Render to pull the new image and deploy
-      - name: Trigger Deploy on Render
-        run: |
-          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
+      

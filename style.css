@@ -27,7 +27,7 @@
 
 
 .cantainer_footer{
-    position: fixed;
+    position: relative;
     bottom:0;
     background-color: aqua;
     width: 100%;

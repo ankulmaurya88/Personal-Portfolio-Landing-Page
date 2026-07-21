@@ -105,3 +105,27 @@ flex: 1;
     border: 2px solid #ccc;
     border-radius: 10px;
 }
+
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+    background-color: #0077b5;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:first-child {
+    background-color: #24292e;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+    transition:0.3s;
+}
